@@ -12,6 +12,7 @@ from .exchange_calendar_xasx import XASXExchangeCalendar
 from .exchange_calendar_xbru import XBRUExchangeCalendar
 from .exchange_calendar_xcbf import XCBFExchangeCalendar
 from .exchange_calendar_xfra import XFRAExchangeCalendar
+from .exchange_calendar_xhel import XHELExchangeCalendar
 from .exchange_calendar_xlis import XLISExchangeCalendar
 from .exchange_calendar_xlon import XLONExchangeCalendar
 from .exchange_calendar_xmad import XMADExchangeCalendar
@@ -47,6 +48,7 @@ _default_calendar_factories = {
     'XMIL': XMILExchangeCalendar,
     'XMAD': XMADExchangeCalendar,
     'XWBO': XWBOExchangeCalendar,
+    'XHEL': XHELExchangeCalendar,
     # Miscellaneous calendars.
     'us_futures': QuantopianUSFuturesCalendar,
     '24/7': AlwaysOpenCalendar,

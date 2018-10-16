@@ -48,7 +48,7 @@ MidsummerEve = Holiday(
     'Midsummer Eve',
     month=6,
     offset=DateOffset(weekday=FR(1)),
-    day=18,
+    day=19,
 )
 
 IndependenceDay = Holiday('Finland Independence Day', month=12, day=6)
