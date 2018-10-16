@@ -15,7 +15,13 @@
 
 from datetime import time
 
-from pandas.tseries.holiday import Holiday, GoodFriday, EasterMonday
+from pandas.tseries.holiday import (
+    Holiday,
+    GoodFriday,
+    EasterMonday,
+    DateOffset,
+    FR,
+)
 from pytz import timezone
 
 from .common_holidays import (
@@ -27,7 +33,6 @@ from .common_holidays import (
     christmas,
     boxing_day,
     new_years_eve,
-    FR,
 )
 from .trading_calendar import HolidayCalendar, TradingCalendar
 
